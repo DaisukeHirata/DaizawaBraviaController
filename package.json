@@ -1,0 +1,15 @@
+{
+  "name": "dhbravia",
+  "version": "1.0.0",
+  "description": "dhbravia",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "daisuke hirata",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^4.9.1",
+    "superagent": "^3.8.2"
+  }
+}
