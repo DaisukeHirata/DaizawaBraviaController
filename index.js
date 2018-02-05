@@ -38,11 +38,11 @@ firebase.initializeApp( config );
 
 const path = "/googlehome";
 const key = "word"
-var db = firebase.database();
-var ref = db.ref( path );
+const db = firebase.database();
+const ref = db.ref( path );
 
 ref.on( "child_changed", function( changedSnapshot ) {
-  var message = changedSnapshot.val().split(" ")[0];
+  const message = changedSnapshot.val().split(" ")[0];
   const command = commandTable[message];
   sendMessage( command );
   //firebase clear
