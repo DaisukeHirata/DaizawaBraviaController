@@ -1,13 +1,21 @@
 {
-  "name": "dhbravia",
+  "name": "daizawa-bravia-controller",
   "version": "1.0.0",
-  "description": "dhbravia",
+  "description": "daizawa-bravia-controller",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaisukeHirata/DaizawaBraviaController.git"
   },
   "author": "daisuke hirata",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaisukeHirata/DaizawaBraviaController/issues"
+  },
+  "homepage": "https://github.com/DaisukeHirata/DaizawaBraviaController#readme",
   "dependencies": {
     "firebase": "^4.9.1",
     "superagent": "^3.8.2"
